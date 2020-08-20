@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(200,200,200);
+}
+
+.container{
+    background-color: white;
+    border: 1px solid rgb(100,100,100);
+
+    width: 400px; /*is needed for "margin: auto" definition" */
+
+    /* long margin definition
+    margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    */
+
+    /* Shorter margin definition. From Left clockwise to button.
+    margin: 25px auto 25px auto;
+    /* 
+
+    /* A Shortest margin definition
+    auto needs a fix size like 'width' (above) 
+    */
+    margin: 2% auto;
+    padding: 2%;
+}

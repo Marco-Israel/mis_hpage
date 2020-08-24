@@ -2,13 +2,22 @@
 .carousel-control-next .carousel-control-next-icon {
     outline: black;
     background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 2s;
 }
 
 .carousel-control-prev .fa-chevron-left,
 .carousel-control-next .fa-chevron-right {
     color: black;
+    transition: background-color 2s;
 }
 
 .carousel-caption {
   color: black;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon:hover,
+.carousel-control-next:hover .carousel-control-next-icon:hover, 
+.carousel-control-prev:hover .fa-chevron-left:hover,
+.carousel-control-next:hover .fa-chevron-right:hover {
+  background-color: gray;
 }

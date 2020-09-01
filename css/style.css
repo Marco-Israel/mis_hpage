@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(360deg, rgb(350,350,350)1%, rgb(300,300,300)1%, rgb(200,200,200));
     background-repeat: no-repeat;
+    height: 100vh;
     font-size: 16px;
 }
 
@@ -12,11 +13,12 @@ body{
     width: 400px; 
 
     /* long margin definition
-    /* auto needs a fix size like 'width' (above) */
+    /* auto needs a fix size like 'width' (above) 
     margin-top: 25px;
     margin-right: auto;
     margin-bottom: 1ßpx;
     margin-left: auto;
+    */
 
     /* Shorter margin definition. From Left clockwise to button. */
     /* auto needs a fix size like 'width' (above) */
